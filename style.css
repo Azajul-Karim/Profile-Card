@@ -65,3 +65,23 @@ body {
   padding-top: 20px;
   letter-spacing: 5px;
 }
+
+@media (max-width: 767px) {
+  body {
+    overflow: auto;
+  }
+  .card {
+    width: 320px;
+    height: 230px;
+  }
+  .heading {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  .desc {
+    font-size: 12px;
+  }
+  .icon {
+    font-size: 17px;
+  }
+}
